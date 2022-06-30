@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './style.css';
+import Nav from './nav.js';
+import Main from './main.js';
+import Article from './Article.js';
+import Footer from './Footer.js';
+import Time from './time.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <Main />
+    <Article />
+    {/*<h1>React text via render()</h1>*/}
+    <Time /> 
+    <Footer />
+   {/* <App /> */}
   </React.StrictMode>
 );
 
