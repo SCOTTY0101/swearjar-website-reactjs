@@ -5,12 +5,12 @@ function Example() {
 
     return (
         <div>
-            <p>Function with State Hook testing.</p>
+            <h3>Function with State Hook testing.</h3>
             <p>Click button has be clicked {count} times.</p>
                 <button onClick={() => setCount(count + 1)} >
                     Click Button
                 </button>
-            
+            <hr></hr>
         </div>
     )
 }

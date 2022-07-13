@@ -39,7 +39,7 @@ function Article() {
         <span className="br">
         <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         <img src="image/reactImg.ico"  alt="logo" id="react-logo" /></a></span>
-        Powered by the React, NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className="br"></span>
+        Powered by the React. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className="br"></span>
         Building websites for mobile first to scale correctly.</p>
         <p>The "Swear Jar" name comes the challenges of chasing bugs and solving problems when writing code.</p>
         <p><b>Launching SwearJar Software in 2021/2022.</b><span className="br"></span>
