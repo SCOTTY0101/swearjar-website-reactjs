@@ -8,6 +8,7 @@ import Main from './main.js';
 import Article from './Article.js';
 import Footer from './Footer.js';
 import Time from './time.js';
+import Example from './react-hook-test.js'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
     <Main />
     <Article />
     {/*<h1>React text via render()</h1>*/}
+    <Example />
     <Time /> 
     <Footer />
    {/* <App /> */}
