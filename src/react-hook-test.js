@@ -8,7 +8,10 @@ function Example() {
             <h3>Function with State Hook testing.</h3>
             <p>Click button has be clicked {count} times.</p>
                 <button onClick={() => setCount(count + 1)} >
-                    Click Button
+                    Click Button +
+                </button>
+                <button onClick={() => ( count <= 0 ? setCount(count - 1) : setCount(0))}>
+                    Click Button -
                 </button>
             <hr></hr>
         </div>
