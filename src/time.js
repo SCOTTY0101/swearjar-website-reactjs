@@ -21,18 +21,19 @@ class Time extends React.Component {
 
   render() {
     return(
-      <>
-      <h3>Date and Time with React Class</h3>
+      <div>
+        <h3>Date and Time with React Class</h3>
 
-      <div className="time-box">
-        <div> Date:  {this.state.date.toLocaleDateString()}</div>
-        <div> Time: {this.state.date.toLocaleTimeString()}</div>
-        <div> Hours: {this.state.date.getHours()}</div> 
-        <div> Minutes: {this.state.date.getMinutes()}</div>
-        <div> Seconds: {this.state.date.getSeconds()}</div> 
+        <div className="time-box">
+          <div> Date:  {this.state.date.toLocaleDateString()}</div>
+          <div> Time: {this.state.date.toLocaleTimeString()}</div>
+          <div> Hours: {this.state.date.getHours()}</div> 
+          <div> Minutes: {this.state.date.getMinutes()}</div>
+          <div> Seconds: {this.state.date.getSeconds()}</div> 
+        </div>
+        
+        <hr></hr>
       </div>
-      <hr></hr>
-      </>
     )
   }
 

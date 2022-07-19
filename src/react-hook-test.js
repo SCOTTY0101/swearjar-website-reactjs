@@ -6,7 +6,7 @@ function Example() {
     return (
         <div>
             <h3>Function with State Hook testing.</h3>
-            <p>Click button has be clicked {count} times.</p>
+            <p>Click button has been clicked {count} times.</p>
                 <button onClick={() => setCount(count + 1)} >
                     Click Button +
                 </button>

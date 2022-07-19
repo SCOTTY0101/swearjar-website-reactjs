@@ -1,4 +1,5 @@
 import React from 'react';
+import networkLogo from './image/network.png';
 
 function Main() {
     return(
@@ -9,7 +10,7 @@ function Main() {
 
             <main id="main">
                     <div id="network">
-                        <img src="./image/network.png" alt="cloud network" id="cloudImage"/>
+                        <img src={networkLogo} alt="cloud network" id="cloudImage"/>
                     </div> 
                 <h1 className="h1">Software startup company aimed at developing future requirements.</h1>
             </main>
